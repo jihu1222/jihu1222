@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title> challenges </title>
+  </head>
+
+  <body>
+
+    <div><h2>Table of Contents</h2>
+
+      <ul>
+        <li><a href ="#chessboard"> Chessboard challenge </a></li>
+        <li><a href ="#form"> Form challenge </a></li>
+        <li><a href ="#page"> Search page challenge </a></li>
+        <li><a href ="#accessibility"> Accessibility concerns </a></li>
+      </ul>
+
+      <p> If any revisions were made, write them here. </p>
+
+    </div><hr>
+
+    <div id="chessboard"><h2>Challenge 2: Build a Chessboard</h2>
+      <table style="border:5px solid black">
+        <tr>
+          <td style="background-color:black;height:50px;width:50px;"></td>
+          <td style="height:50px;width:50px;"><p style="text-align:center">&#9818;</p></td>
+          <td style="background-color:black;height:50px;width:50px;"></td>
+          <td style="height:50px;width:50px;"></td>
+          <td style="background-color:black;height:50px;width:50px;"></td>
+          <td style="height:50px;width:50px;"></td>
+          <td style="background-color:black;height:50px;width:50px;"></td>
+          <td style="height:50px;width:50px;"></td>
+        </tr>
+        <tr>
+          <td style="height:50px;width:50px;"></td>
+          <td style="background-color:black;height:50px;width:50px;"></td>
+          <td style="height:50px;width:50px;"></td>
+          <td style="background-color:black;height:50px;width:50px;"><p style="color:white;text-align:center">&#9813;</p></td>
+          <td style="height:50px;width:50px;"></td>
+          <td style="background-color:black;height:50px;width:50px;"></td>
+          <td style="height:50px;width:50px;"></td>
+          <td style="background-color:black;height:50px;width:50px;"></td>
+        </tr>
+        <tr>
+          <td style="background-color:black;height:50px;width:50px;"><p style="color:white;text-align:center">&#9812;</p></td>
+          <td style="height:50px;width:50px;"></td>
+          <td style="background-color:black;height:50px;width:50px;"></td>
+          <td style="height:50px;width:50px;"></td>
+          <td style="background-color:black;height:50px;width:50px;"></td>
+          <td style="height:50px;width:50px;"></td>
+          <td style="background-color:black;height:50px;width:50px;"></td>
+          <td style="height:50px;width:50px;"></td>
+        </tr>
+        <tr>
+          <td style="height:50px;width:50px;"></td>
+          <td style="background-color:black;height:50px;width:50px;"></td>
+          <td style="height:50px;width:50px;"></td>
+          <td style="background-color:black;height:50px;width:50px;"></td>
+          <td style="height:50px;width:50px;"></td>
+          <td style="background-color:black;height:50px;width:50px;"></td>
+          <td style="height:50px;width:50px;"></td>
+          <td style="background-color:black;height:50px;width:50px;"></td>
+        </tr>
+        <tr>
+          <td style="background-color:black;height:50px;width:50px;"></td>
+          <td style="height:50px;width:50px;"></td>
+          <td style="background-color:black;height:50px;width:50px;"></td>
+          <td style="height:50px;width:50px;"></td>
+          <td style="background-color:black;height:50px;width:50px;"></td>
+          <td style="height:50px;width:50px;"></td>
+          <td style="background-color:black;height:50px;width:50px;"></td>
+          <td style="height:50px;width:50px;"></td>
+        </tr>
+        <tr>
+          <td style="height:50px;width:50px;"></td>
+          <td style="background-color:black;height:50px;width:50px;"></td>
+          <td style="height:50px;width:50px;"></td>
+          <td style="background-color:black;height:50px;width:50px;"></td>
+          <td style="height:50px;width:50px;"></td>
+          <td style="background-color:black;height:50px;width:50px;"></td>
+          <td style="height:50px;width:50px;"></td>
+          <td style="background-color:black;height:50px;width:50px;"></td>
+        </tr>
+        <tr>
+          <td style="background-color:black;height:50px;width:50px;"></td>
+          <td style="height:50px;width:50px;"></td>
+          <td style="background-color:black;height:50px;width:50px;"></td>
+          <td style="height:50px;width:50px;"></td>
+          <td style="background-color:black;height:50px;width:50px;"></td>
+          <td style="height:50px;width:50px;"></td>
+          <td style="background-color:black;height:50px;width:50px;"></td>
+          <td style="height:50px;width:50px;"></td>
+        </tr>
+        <tr>
+          <td style="height:50px;width:50px;"></td>
+          <td style="background-color:black;height:50px;width:50px;"></td>
+          <td style="height:50px;width:50px;"></td>
+          <td style="background-color:black;height:50px;width:50px;"></td>
+          <td style="height:50px;width:50px;"></td>
+          <td style="background-color:black;height:50px;width:50px;"></td>
+          <td style="height:50px;width:50px;"></td>
+          <td style="background-color:black;height:50px;width:50px;"></td>
+        </tr>
+      </table>
+      <p> End game condition provided by my brothers. They're huge chess nerds. </p>
+    </div><hr>
+
+    <div id="form"><h2>Challenge 3: Create a Form</h2>
+
+      <p>Apply to hang out with me on February 14th! Answer these few simple questions:</p>
+
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br>
+
+        <p>Do you like garlic bread?</p>
+        <input type="radio" id="garlic_bread_yes" name="garlic_bread" value="YES">
+        <label for="garlic_bread_yes">Yes</label><br>
+        <input type="radio" id="garlic_bread_no" name="garlic_bread" value="NO">
+        <label for="garlic_bread_no">No</label><br>
+
+        <p>Do you have any of the following?</p>
+        <input type="checkbox" id="x1" name="x1" value="one">
+        <label for="x1">A cute pet</label><br>
+        <input type="checkbox" id="x2" name="x2" value="two">
+        <label for="x2">Good memes</label><br>
+        <input type="checkbox" id="x3" name="x3" value="three">
+        <label for="x3">A million dollars</label><br>
+      </form>
+
+      <p> If any revisions were made, write them here. </p>
+
+    </div><hr>
+
+    <div id="page"><h2>Challenge 4: A Google Search Page</h2>
+
+      <p style="font-size:10"> About 3,400,000,000 results (0.86 seconds) </p>
+      <h3><a href="https://www.colorado.edu/atlas/">ATLAS Institute | University of Colorado Boulder</a></h3>
+      <p><strong>ATLAS</strong> is an interdisciplinary <strong>institute</strong> for radical
+        creativity and invention. We transform ingenious ideas into reality through research, ...</p>
+
+      <table>
+        <tr>
+          <td><h4><a href="https://www.colorado.edu/atlas/academics/grad">Graduate Degrees in Creative ...</a></h4>
+            <p>Radically interdisciplinary, ATLAS graduate programs nurture ...</p></td>
+          <td><h4><a href="https://www.colorado.edu/atlas/about-atlas">About</a></h4>
+            <p>ATLAS is an interdisciplinary institute for radical creativity and ...</p></td>
+        </tr>
+        <tr>
+          <td><h4><a href="https://www.colorado.edu/atlas/academics">Academics</a></h4>
+            <p>Granted through the College of Engineering and Applied ...</p></td>
+          <td><h4><a href="https://www.colorado.edu/atlas/academics/undergraduate">Undergraduate Programs</a></h4>
+            <p>Awarded through the College of Engineering and Applied ...</p></td>
+        </tr>
+        <tr>
+          <td><h4><a href="https://www.colorado.edu/atlas/faculty">Faculty</a></h4>
+            <p>Lecturer, co-chair Board of Advisors • DESIGN, AR/VR ...</p></td>
+          <td><h4><a href="https://www.colorado.edu/atlas/research-creative">Research + Creative</a></h4>
+            <p>Check out ATLAS Research Showcase 2020.</p></td>
+        </tr>
+        <tr>
+          <td><p><a href="https://www.google.com/search?q=atlas+Institute+site:colorado.edu&rlz=1C1CHBF_enUS911US911&sxsrf=APq-WBuzIxTBp4KzYfVvBtLlFKYcVggCgg:1644461502270&sa=X&ved=2ahUKEwi0xcG9kPT1AhXTFzQIHWQJDqAQrAN6BAgUEAE">
+            More results from colorado.edu</a></p></td>
+        </table>
+
+        <h3><a href="https://www.colorado.edu/innovate/atlas-institute">ATLAS Institute | Innovation & Entrepreneurship - University of ...</a></h3>
+        <p>Resource that sponsors diverse interdisciplinary academic and research programs, challenging community members
+          to explore, innovate, create and design well ...</p>
+
+        <h3><a href="https://www.linkedin.com/school/atlas-cu-boulder/">ATLAS Institute at CU Boulder Employees, Location, Alumni</a></h3>
+        <p>ATLAS is an interdisciplinary institute for radical creativity and invention where ingenious ideas become reality. ·
+          <strong>ATLAS Institute</strong> at CU Boulder. View all open ...</p>
+
+        <h3><a href="https://typemoon.fandom.com/wiki/Atlas">Atlas | TYPE-MOON Wiki | Fandom</a></h3>
+        <p>The Atlas Institute, also called Atlas Academy, Atlas Temple, or simply Atlas, is one of the three major ...</p>
+
+        <h3><a href="https://www.internationalaffairshouse.org/">Atlas Institute for International Affairs: Home</a></h3>
+        <p><strong>Atlas Institute</strong> for International Affairs - The Harmony of Opposite Tensions.</p>
+
+<!--
+- 5 entries listed
+- 1 entry has sub-links to it
+- "Number of results" blurb present at the top of the page
+- Links are active and link to the correct pages
+-->
+
+    </div><hr>
+
+    <div id="accessibility"><h2>Challenge 5: Accessibility Concerns</h2>
+
+      <p> I will be addressing an accessibility concern with challenge 2, the chess board.
+        Someone who is blind and using an e-reader would not be able to view this chessboard effectively.
+        Even if the reader could manually tell them "Black king E-5" and "White pawn b-3" it would be extremely difficult
+        for them to memorize and understand that much information all at once pertaining to the pieces.
+        Though, I do not think the e-reader would accurately read out the pieces since I don't know if it can understand unicode.
+        This could be addressed by adding a short paragraph which lays out the details of the chess board instead of the
+        e-reader trying to read out the table.
+      </p>
+
+      <p> If any revisions were made, write them here. </p>
+
+    </div><hr>
+
+  </body>
+</html>
