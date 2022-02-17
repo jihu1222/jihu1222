@@ -1,0 +1,64 @@
+body {
+  background-color: #F4FEFF;
+}
+
+h1 {
+  color: #202023;
+  font-family: "Lucida Console", sans-serif;
+  font-size: 200%;
+}
+
+h2 {
+  color: #202023;
+  font-family: "Lucida Console", sans-serif;
+}
+
+h3 {
+  color: #202023;
+  font-family: "Lucida Console", sans-serif;
+}
+
+h4 {
+  color: #202023;
+  font-family: "Lucida Console", sans-serif;
+}
+
+h5 {
+  color: #202023;
+  font-family: georgia, serif;
+}
+
+h6 {
+  color: #202023;
+  font-family: georgia, serif;
+}
+
+p {
+  color: #202023;
+  font-family: georgia, serif;
+}
+
+img {
+  border-radius: 8px;
+}
+
+a[href] {
+  color: #6AA2F5;
+  font-family: georgia, serif;
+}
+
+a:hover {
+  color: #5D72DF;
+}
+
+a:visited {
+  color: #7A92A0;
+}
+
+hr {
+  border-top: 1px solid #7A92A0;
+}
+
+ul {
+  color: #202023;
+}
