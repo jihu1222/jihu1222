@@ -47,3 +47,10 @@ hr {
 ul {
   color: #202023;
 }
+
+.bigbox {
+  width:600px;
+  padding:100px;
+  margin:50px;
+  background-color:#6AA2F5;
+}
