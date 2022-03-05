@@ -62,10 +62,10 @@ ul {
 .tempbox{
   grid-column-start: 1;
   grid-column-end: 2;
-  background-color:green;
+  background-color:#6AA2F5;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .sitebox{
     grid-template-columns: 40px 80%;
     column-gap:5%;
@@ -101,7 +101,7 @@ ul {
   }
 
   .windowbox {
-    padding:2em;
+    padding:3.5em;
 	}
 
   img {
