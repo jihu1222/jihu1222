@@ -67,7 +67,7 @@ ul {
 
 @media screen and (max-width: 400px) {
   .sitebox{
-    grid-template-columns: 50px 70%;
+    grid-template-columns: 40px 80%;
     column-gap:5%;
     margin: 10% auto 10% 10%;
   }
@@ -75,4 +75,48 @@ ul {
   .windowbox {
     padding:1.5em;
 	}
+
+  img {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .sitebox{
+    grid-template-columns: 40px 800px;
+    column-gap:15px;
+    margin: 10% auto 10% 10%;
+  }
+
+  .windowbox {
+    padding:2em;
+	}
+
+  img {
+    width: 200px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 18px;
+  }
 }
