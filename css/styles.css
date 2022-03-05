@@ -48,9 +48,31 @@ ul {
   color: #202023;
 }
 
-.bigbox {
-  width:600px;
-  padding:100px;
-  margin:50px;
-  background-color:#6AA2F5;
+.sitebox {
+  display: grid;
+}
+
+.windowbox{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  background-color:white;
+  border: 3px solid #6AA2F5;
+}
+
+.tempbox{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background-color:green;
+}
+
+@media screen and (max-width: 400px) {
+  .sitebox{
+    grid-template-columns: 50px 70%;
+    column-gap:5%;
+    margin: 10% auto 10% 10%;
+  }
+
+  .windowbox {
+    padding:1.5em;
+	}
 }
