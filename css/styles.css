@@ -50,31 +50,78 @@ ul {
 
 .sitebox {
   display: grid;
+  grid-row-gap: 10px;
 }
 
 .windowbox{
   grid-column-start: 2;
-  grid-column-end: 3;
-  background-color:white;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 6;
+  background-color: white;
   border: 3px solid #6AA2F5;
 }
 
-.tempbox{
+.navbar{
   grid-column-start: 1;
   grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  align-items: center;
+}
+
+.topbar {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  color: white;
   background-color:#6AA2F5;
 }
 
-@media screen and (max-width: 600px) {
+.homeicon {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color:#6AA2F5;
+}
+
+.abouticon {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: lightblue;
+}
+
+.workicon {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-color: cyan;
+}
+
+.xicon {
+  grid-column-start: 3;
+}
+
+@media screen and (max-width: 400px) {
   .sitebox{
-    grid-template-columns: 40px 80%;
-    column-gap:5%;
+    grid-template-columns: 40px 60% 30px 30px 30px;
+    grid-template-rows: 40px 40px 40px 40px;
+    grid-gap: 10px 5%;
     margin: 10% auto 10% 10%;
   }
 
   .windowbox {
-    padding:1.5em;
+    padding: 50px 1.5em 1.5em;
 	}
+
+  .topbar {
+    padding: 0px 1em;
+  }
 
   img {
     width: 100%;
@@ -95,8 +142,10 @@ ul {
 
 @media screen and (min-width: 1000px) {
   .sitebox{
-    grid-template-columns: 40px 800px;
+    grid-template-columns: 40px 800px 30px 30px 30px;
     column-gap:15px;
+    grid-template-rows: 40px 40px 40px 40px;
+    row-gap: 5%;
     margin: 10% auto 10% 10%;
   }
 
