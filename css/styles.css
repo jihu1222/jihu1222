@@ -109,10 +109,10 @@ ul {
 
 @media screen and (max-width: 400px) {
   .sitebox{
-    grid-template-columns: 40px 60% 30px 30px 30px;
+    grid-template-columns: 40px 65% 30px 30px 30px;
     grid-template-rows: 40px 40px 40px 40px;
-    grid-gap: 10px 5%;
-    margin: 10% auto 10% 10%;
+    grid-gap: 10px 3%;
+    margin: 10% 7% 10% 1%;
   }
 
   .windowbox {
@@ -142,11 +142,11 @@ ul {
 
 @media screen and (min-width: 1000px) {
   .sitebox{
-    grid-template-columns: 40px 800px 30px 30px 30px;
+    grid-template-columns: 40px 80% 30px 30px 30px;
     column-gap:15px;
     grid-template-rows: 40px 40px 40px 40px;
     row-gap: 5%;
-    margin: 10% auto 10% 10%;
+    margin: 100px 10% 100px 15%;
   }
 
   .windowbox {
