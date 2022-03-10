@@ -23,10 +23,6 @@ p {
   font-family: georgia, serif;
 }
 
-img {
-  border-radius: 8px;
-}
-
 a:link {
   color: #6AA2F5;
   font-family: georgia, serif;
@@ -60,6 +56,7 @@ ul {
   grid-row-end: 6;
   background-color: white;
   border: 3px solid #6AA2F5;
+  border-radius: 3px;
 }
 
 .topbar {
@@ -69,6 +66,12 @@ ul {
   grid-row-end: 2;
   color: white;
   background-color:#6AA2F5;
+  border-radius: 3px;
+}
+
+.url {
+  color: white;
+  font-family: "Lucida Console", sans-serif;
 }
 
 .homeicon {
@@ -79,7 +82,9 @@ ul {
   background-color:#6AA2F5;
   text-align: center;
   color: white;
-  padding: 4px 0px;
+  padding: 11px 0px;
+  border-radius: 5px;
+  width: 40px;
 }
 
 .abouticon {
@@ -90,7 +95,9 @@ ul {
   background-color:#6AA2F5;
   text-align: center;
   color: white;
-  padding: 4px 0px;
+  padding: 11px 0px;
+  border-radius: 5px;
+  width: 40px;
 }
 
 .workicon {
@@ -101,7 +108,9 @@ ul {
   background-color:#6AA2F5;
   text-align: center;
   color: white;
-  padding: 4px 0px;
+  padding: 11px 0px;
+  border-radius: 5px;
+  width: 40px;
 }
 
 .contacticon {
@@ -112,7 +121,9 @@ ul {
   background-color:#6AA2F5;
   text-align: center;
   color: white;
-  padding: 4px 0px;
+  padding: 11px 0px;
+  border-radius: 5px;
+  width: 40px;
 }
 
 .windowicons {
@@ -121,6 +132,7 @@ ul {
   grid-row-start: 1;
   grid-row-end: 2;
   color: white;
+  padding: 10px
 }
 
 @media screen and (max-width: 400px) {
@@ -132,19 +144,17 @@ ul {
   }
 
   .windowbox {
-    padding: 50px 1.5em 1.5em;
+    padding: 50px 1.25em 1.5em;
 	}
 
   .topbar {
     padding: 0px 1em;
   }
 
-  .windowicons {
-    padding: 10px;
-  }
-
-  img {
-    width: 100%;
+  #homeimg {
+    width: 70%;
+    border-radius: 6px;
+    margin-left: 15%;
   }
 
   h1 {
