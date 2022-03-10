@@ -62,14 +62,6 @@ ul {
   border: 3px solid #6AA2F5;
 }
 
-.navbar{
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 5;
-  align-items: center;
-}
-
 .topbar {
   grid-column-start: 2;
   grid-column-end: 4;
@@ -85,6 +77,9 @@ ul {
   grid-row-start: 1;
   grid-row-end: 2;
   background-color:#6AA2F5;
+  text-align: center;
+  color: white;
+  padding: 4px 0px;
 }
 
 .abouticon {
@@ -92,7 +87,10 @@ ul {
   grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 3;
-  background-color: lightblue;
+  background-color:#6AA2F5;
+  text-align: center;
+  color: white;
+  padding: 4px 0px;
 }
 
 .workicon {
@@ -100,16 +98,34 @@ ul {
   grid-column-end: 2;
   grid-row-start: 3;
   grid-row-end: 4;
-  background-color: cyan;
+  background-color:#6AA2F5;
+  text-align: center;
+  color: white;
+  padding: 4px 0px;
 }
 
-.xicon {
+.contacticon {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  background-color:#6AA2F5;
+  text-align: center;
+  color: white;
+  padding: 4px 0px;
+}
+
+.windowicons {
   grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  color: white;
 }
 
 @media screen and (max-width: 400px) {
   .sitebox{
-    grid-template-columns: 40px 65% 30px 30px 30px;
+    grid-template-columns: 40px 66% 23%;
     grid-template-rows: 40px 40px 40px 40px;
     grid-gap: 10px 3%;
     margin: 10% 7% 10% 1%;
@@ -121,6 +137,10 @@ ul {
 
   .topbar {
     padding: 0px 1em;
+  }
+
+  .windowicons {
+    padding: 10px;
   }
 
   img {
