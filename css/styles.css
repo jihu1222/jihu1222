@@ -172,19 +172,37 @@ ul {
 
 @media screen and (min-width: 1000px) {
   .sitebox{
-    grid-template-columns: 40px 80% 30px 30px 30px;
-    column-gap:15px;
+    grid-template-columns: 40px 76% 80px;
+    grid-gap: 15px 2%;;
     grid-template-rows: 40px 40px 40px 40px;
-    row-gap: 5%;
-    margin: 100px 10% 100px 15%;
+    margin: 100px 7% 100px 11%;
   }
 
   .windowbox {
-    padding:3.5em;
+    padding: 70px 2.5em;
 	}
 
-  img {
-    width: 200px;
+  .topbar {
+    padding: 0px 1em;
+  }
+
+  #homeimg {
+    width: 250px;
+    border-radius: 6px;
+    margin-left: 0px;
+  }
+
+  .textbox {
+    display: flex;
+    gap: 1.5em;
+  }
+
+  .textleft {
+    width: 30%
+  }
+
+  .textright {
+    width: 80%
   }
 
   h1 {
@@ -197,5 +215,9 @@ ul {
 
   p {
     font-size: 18px;
+  }
+
+  .url {
+    font-size: 16px;
   }
 }
