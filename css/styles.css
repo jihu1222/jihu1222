@@ -136,6 +136,25 @@ ul {
   padding: 10px
 }
 
+.imgbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.art1 {
+  width: 30%
+}
+
+.art2 {
+  width: 30%
+}
+
+.art3 {
+  width: 30%
+}
+
 @media screen and (max-width: 400px) {
   .sitebox{
     grid-template-columns: 40px 66% 23%;
@@ -156,6 +175,23 @@ ul {
     width: 70%;
     border-radius: 6px;
     margin-left: 15%;
+  }
+
+  .imgbox {
+    width: 66%
+    height: 30%;
+  }
+
+  #art1 {
+    width: 70%;
+  }
+
+  #art2 {
+    width: 60%;
+  }
+
+  #art3 {
+    width: 70%;
   }
 
   h1 {
@@ -211,6 +247,23 @@ ul {
 
   .textright {
     width: 70%
+  }
+
+  .imgbox {
+    width: 76%
+    height: 40%;
+  }
+
+  #art1 {
+    width: 85%;
+  }
+
+  #art2 {
+    width: 84.5%;
+  }
+
+  #art3 {
+    width: 100%;
   }
 
   h1 {
