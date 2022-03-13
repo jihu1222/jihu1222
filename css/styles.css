@@ -143,18 +143,6 @@ ul {
   justify-content: center;
 }
 
-.art1 {
-  width: 30%
-}
-
-.art2 {
-  width: 30%
-}
-
-.art3 {
-  width: 30%
-}
-
 @media screen and (max-width: 500px) {
   .sitebox{
     grid-template-columns: 40px 66% 23%;
@@ -178,7 +166,7 @@ ul {
   }
 
   #contactimg {
-    width: 30%;
+    width: 70%;
     height: auto;
     border-radius: 6px;
     margin-left: 5%;
@@ -187,6 +175,7 @@ ul {
   .imgbox {
     width: 66%;
     height: 30%;
+    margin-left: 20%;
   }
 
   .art1 {
@@ -271,6 +260,18 @@ ul {
   .imgbox {
     width: 76%;
     height: 40%;
+  }
+
+  .art1 {
+    width: 30%
+  }
+
+  .art2 {
+    width: 30%
+  }
+
+  .art3 {
+    width: 30%
   }
 
   #art1 {
