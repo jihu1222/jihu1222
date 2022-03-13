@@ -155,7 +155,7 @@ ul {
   width: 30%
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .sitebox{
     grid-template-columns: 40px 66% 23%;
     grid-template-rows: 40px 40px 40px 40px;
