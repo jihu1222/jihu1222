@@ -177,21 +177,28 @@ ul {
     margin-left: 15%;
   }
 
+  #contactimg {
+    width: 200px;
+    height: auto;
+    border-radius: 6px;
+    margin-left: 5%;
+  }
+
   .imgbox {
     width: 66%;
     height: 30%;
   }
 
   #art1 {
-    width: 70%;
+    width: 85%;
   }
 
   #art2 {
-    width: 60%;
+    width: 84.5%;
   }
 
   #art3 {
-    width: 70%;
+    width: 100%;
   }
 
   h1 {
