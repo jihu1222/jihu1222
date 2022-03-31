@@ -86,6 +86,7 @@ ul {
   padding: 11px 0px;
   border-radius: 5px;
   width: 40px;
+  cursor: pointer;
 }
 
 .abouticon {
@@ -99,6 +100,7 @@ ul {
   padding: 11px 0px;
   border-radius: 5px;
   width: 40px;
+  cursor: pointer;
 }
 
 .workicon {
@@ -112,6 +114,7 @@ ul {
   padding: 11px 0px;
   border-radius: 5px;
   width: 40px;
+  cursor: pointer;
 }
 
 .contacticon {
@@ -125,6 +128,7 @@ ul {
   padding: 11px 0px;
   border-radius: 5px;
   width: 40px;
+  cursor: pointer;
 }
 
 .windowicons {
@@ -301,4 +305,18 @@ ul {
   .url {
     font-size: 16px;
   }
+}
+
+.a11 {
+  font-family: 'helvetica neue', helvetica, sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 2px solid rgba(0,0,200,0.6);
+  background: rgba(0,0,200,0.3);
+  color: rgba(0,0,200,0.6);
+  box-shadow: 1px 1px 2px rgba(0,0,200,0.4);
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
 }
