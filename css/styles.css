@@ -143,7 +143,7 @@ ul {
   justify-content: center;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
   .sitebox{
     grid-template-columns: 40px 66% 23%;
     grid-template-rows: 40px 40px 40px 40px;
@@ -215,7 +215,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 800px) {
   .sitebox{
     grid-template-columns: 40px 76% 80px;
     grid-gap: 15px 2%;;
