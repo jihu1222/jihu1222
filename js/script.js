@@ -12,5 +12,5 @@ function updateName () {
 }
 
 function updateImg () {
-  image.src = "../img/cadt-angy.png"
+  image.src = "../img/cadt-angy.PNG"
 }
