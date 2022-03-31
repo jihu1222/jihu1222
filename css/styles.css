@@ -307,16 +307,18 @@ ul {
   }
 }
 
-.a11 {
-  font-family: 'helvetica neue', helvetica, sans-serif;
-  letter-spacing: 1px;
-  text-transform: uppercase;
+#a11 {
+  font-family: 'Brush Script MT', cursive;
   text-align: center;
-  border: 2px solid rgba(0,0,200,0.6);
-  background: rgba(0,0,200,0.3);
-  color: rgba(0,0,200,0.6);
+  border: 2px solid red;
+  background: white;
+  color: red;
   box-shadow: 1px 1px 2px rgba(0,0,200,0.4);
-  border-radius: 10px;
   display: inline-block;
+  cursor: pointer;
+}
+
+#coolImage {
+  width: 200px;
   cursor: pointer;
 }
