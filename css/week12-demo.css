@@ -12,7 +12,7 @@ html {
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-  background:url(https://cdn.discordapp.com/attachments/362057355996692483/956124734448369664/background-catds-big-alt-2.png);
+  background-color: #F4FEFF;
 }
 
 .app {
@@ -29,21 +29,25 @@ body {
 header {
   width: 100%;
   font-size: 30px;
-  text-align: center;
+  text-align: left;
   padding: 10px;
   border-bottom: 1px solid #ebebeb;
-  background-color: #61c7fa;
+  background-color: #6AA2F5;
+  color: white;
+  font-family: "Lucida Console", sans-serif;
+  font-size: 22px;
 }
 
 .quotes {
-  padding: 20px 50px;
+  padding: 40px 50px;
   min-height: 200px;
 }
 
-.quote-text {
+.quote-text, .people{
   padding-bottom: 20px;
-  font-size: 25px;
+  font-size: 20px;
   color: black;
+  font-family: georgia, serif;
 }
 
 .controls {
@@ -61,16 +65,17 @@ header {
   text-align: center;
   width: 100%;
   font-size: 20px;
+  font-family: "Lucida Console", sans-serif;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
 }
 
 .new-quote {
-  background-color: #61c7fa;
+  background-color: #6AA2F5;
   margin-bottom: 15px;
 }
 
 .new-quote:hover {
-  background-color: #61d8f2;
+  background-color: #52b1ff;
 }
 
 .new-quote:disabled {

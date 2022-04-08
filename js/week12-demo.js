@@ -2,7 +2,7 @@ const quoteButton = document.querySelector('#js-new-quote');
 
 quoteButton.addEventListener('click' , getQuote);
 
-const endpoint = 'https://catfact.ninja/fact';
+const endpoint = 'https://www.boredapi.com/api/activity';
 
 async function getQuote() {
   console.log('quote button was clicked');
@@ -14,7 +14,8 @@ async function getQuote() {
 
   const json = await response.json();
   console.log(json);
-  displayQuote(json.fact);
+  displayQuote(json.activity+'.');
+  displayPeople(json.participants);
 
   }
   catch(err) {
@@ -26,4 +27,19 @@ async function getQuote() {
 function displayQuote(quote){
   const quoteText = document.querySelector('#js-quote-text');
   quoteText.textContent = quote;
+}
+
+function displayPeople(people) {
+  const peopleText = document.querySelector('#js-people-text');
+  console.log(people);
+  peopleText.textContent = 'Number of participants: '+ numToSymbol(people);
+}
+
+function numToSymbol(number){
+  var numString = '';
+
+  for (let i=0; i<number; i++){
+    numString = numString +' 🚶' ; 
+  }
+  return numString;
 }
