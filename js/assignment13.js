@@ -7,8 +7,6 @@ const insertX = ["Willy the Goblin", "Big Daddy", "Father Christmas"];
 const insertY = ["the soup kitchen", "Disneyland", "the White House"];
 const insertZ = ["spontaneously combusted", "melted into a puddle on the sidewalk", "turned into a slug and crawled away"];
 
-var newStory = storyText;
-
 randomize.addEventListener('click', result);
 
 function randomValueFromArray(array){
@@ -17,6 +15,8 @@ function randomValueFromArray(array){
 }
 
 function result() {
+
+  var newStory = storyText;
 
   if(customName.value !== '') {
     const name = customName.value;
