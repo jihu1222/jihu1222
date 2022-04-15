@@ -6,55 +6,47 @@
     <meta name="viewport" content="width=device-width">
 
     <script defer src="../js/assignment13.js"></script>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
     <title>Silly story generator</title>
 
-    <style>
-
-    body {
-      font-family: helvetica, sans-serif;
-      width: 350px;
-    }
-
-    label {
-      font-weight: bold;
-    }
-
-    div {
-      padding-bottom: 20px;
-    }
-
-    input[type="text"] {
-      padding: 5px;
-      width: 150px;
-    }
-
-    p {
-      background: #FFC125;
-      color: #5E2612;
-      padding: 10px;
-      visibility: hidden;
-    }
-
-    </style>
   </head>
 
   <body>
-    <div>
-      <label for="customname">Enter custom name:</label>
-      <input id="customname" type="text" placeholder="">
-    </div>
-    <div>
-      <label for="us">US</label><input id="us" type="radio" name="ukus" value="us" checked>
-      <label for="uk">UK</label><input id="uk" type="radio" name="ukus" value="uk">
-    </div>
-    <div>
-      <button class="randomize">Generate random story</button>
-    </div>
-    <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
-    <p class="story"></p>
+    <div class = "sitebox">
 
+      <form action="https://kaihues.github.io/assignments/assignment13.html"><button type="submit" class="homeicon"><i class="fa fa-house-chimney fa-lg"></i></button></form>
 
+      <div class = "windowbox">
+        <section class = "sillyStoryControls">
+          <div class = "sillyStory">
+            <label for="customname">Enter custom name:</label>
+            <input id="customname" type="text" placeholder="">
+          </div>
+          <div class = "sillyStory">
+            <label for="us">US</label><input id="us" type="radio" name="ukus" value="us" checked>
+            <label for="uk">UK</label><input id="uk" type="radio" name="ukus" value="uk">
+          </div>
+          <div class = "sillyStory">
+            <button class="randomize">Generate random story</button>
+          </div>
+      </section>
+        <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
+        <p class="story"></p>
+
+      </div>
+
+      <div class = topbar>
+        <p class="url">silly-story-generator.txt </p>
+      </div>
+
+      <div class="windowicons">
+        <i class="fa-solid fa-window-maximize fa-rotate-180"></i>
+        <i class="fa-regular fa-window-restore"></i>
+        <i class="fa fa-square-xmark"></i></div>
+
+    </div>
 
   </body>
 </html>
