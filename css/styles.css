@@ -147,30 +147,6 @@ ul {
   justify-content: center;
 }
 
-.randomize {
-  display: block;
-  color: white;
-  border-radius: 4px;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  text-align: center;
-  width: 35%;
-  font-size: 20px;
-  font-family: "Lucida Console", sans-serif;
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
-  background-color: #6AA2F5;
-}
-
-.sillyStoryControls {
-  padding: 40px 50px;
-  min-height: 50px;
-}
-
-.sillyStory {
-  padding-bottom: 20px;
-}
-
 @media screen and (max-width: 800px) {
   .sitebox{
     grid-template-columns: 40px 66% 23%;
@@ -345,4 +321,43 @@ ul {
 #coolImage {
   width: 200px;
   cursor: pointer;
+}
+
+.randomize {
+  display: block;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  font-family: "Lucida Console", sans-serif;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+  background-color: #6AA2F5;
+}
+
+.randomize:hover {
+  background-color: #52b1ff;
+}
+
+.sillyStoryControls {
+  padding: 12px 17px;
+  min-height: 50px;
+}
+
+.sillyStory {
+  padding-bottom: 15px;
+}
+
+.story {
+  padding: 0px 17px;
+}
+
+#smallTab {
+  grid-template-columns: 40px 40% 80px;
+  grid-gap: 15px 2%;;
+  grid-template-rows: 40px 40px 40px 40px;
+  margin: 7% 0px 7% 27%;
 }
