@@ -83,4 +83,18 @@ console.log(company);
 
 // problem 6
 
-// i don't know how to do this one right now. will i figure it out? if you're reading this, no
+const workFromHome = ['Anna', 'Sam'];
+
+function addWFH(obj, array) {
+  for(i = 0; i < obj.employees.length; i++){
+    if (obj.employees[i].firstName != workFromHome[0] && obj.employees[i].firstName != workFromHome[1]) {
+    obj.employees[i].wfh = "false";
+    }
+    else {
+      obj.employees[i].wfh = "true";
+    }
+  }
+}
+
+addWFH(company);
+console.log(company);
