@@ -156,6 +156,10 @@ ul {
   margin-bottom: 15px;
 }
 
+#xButton {
+  color: #ff4f6f;
+}
+
 @media screen and (max-width: 800px) {
   .sitebox{
     grid-template-columns: 40px 66% 23%;
