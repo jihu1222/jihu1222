@@ -147,6 +147,15 @@ ul {
   justify-content: center;
 }
 
+#codeEx {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+#codeEx li:not(:last-child) {
+  margin-bottom: 15px;
+}
+
 @media screen and (max-width: 800px) {
   .sitebox{
     grid-template-columns: 40px 66% 23%;
@@ -230,6 +239,14 @@ ul {
   .windowbox {
     padding: 70px 2.5em 40px;
 	}
+
+  #codeBox {
+    margin: 100px 7% 30px 11%;
+  }
+
+  #artworkBox {
+    margin: 0px 7% 100px 11%;
+  }
 
   .topbar {
     padding: 0px 1em;
