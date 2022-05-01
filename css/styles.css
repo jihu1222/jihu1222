@@ -246,6 +246,31 @@ ul {
   p {
     font-size: 15px;
   }
+
+  .musicCats {
+      margin: 0px 0% 0px 0%;
+  }
+
+  #spacing {
+    margin-top: 20px;
+  }
+
+  #musicPage {
+    margin: 0px 12% 0px 12%;
+    text-align: center;
+  }
+
+  #musiCat1 {
+    width: 32%;
+  }
+
+  #musiCat2 {
+    width: 32%;
+  }
+
+  #musiCat3 {
+    width: 33%;
+  }
 }
 /* end of mobile media query */
 
@@ -350,6 +375,7 @@ ul {
 
   #musicPage {
     margin: 0px 32% 0px 32%;
+    text-align: center;
   }
 
   #musiCat1 {

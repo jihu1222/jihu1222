@@ -6,13 +6,13 @@ var sound1 = new Audio("./sounds/cNote.wav");
 // audio is from here: https://freesound.org/people/Carlos_Vaquero/sounds/154111/
 
 function meow1 () {
-  image1.src = "./img/cadt-angy.PNG";
+  image1.src = "./img/cadt-1-2.png";
   sound1.play();
   const wait = setTimeout(returnImg1, 200);
 }
 
 function returnImg1 () {
-  image1.src = "./img/cadt.PNG";
+  image1.src = "./img/cadt-1-1.png";
 }
 
 // cat 2
@@ -23,13 +23,13 @@ var sound2 = new Audio("./sounds/dNote.wav");
 // audio is from here: https://freesound.org/people/Carlos_Vaquero/sounds/154113/
 
 function meow2 () {
-  image2.src = "./img/cadt-angy.PNG";
+  image2.src = "./img/cadt-2-2.png";
   sound2.play();
   const wait = setTimeout(returnImg2, 200);
 }
 
 function returnImg2 () {
-  image2.src = "./img/cadt.PNG";
+  image2.src = "./img/cadt-2-1.png";
 }
 
 // cat 3
@@ -40,11 +40,11 @@ var sound3 = new Audio("./sounds/fNote.mp3");
 // audio is from here: https://freesound.org/people/Carlos_Vaquero/sounds/154116/
 
 function meow3 () {
-  image3.src = "./img/cadt-angy.PNG";
+  image3.src = "./img/cadt-3-2.png";
   sound3.play();
   const wait = setTimeout(returnImg3, 200);
 }
 
 function returnImg3 () {
-  image3.src = "./img/cadt.PNG";
+  image3.src = "./img/cadt-3-1.png";
 }
