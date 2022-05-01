@@ -54,7 +54,7 @@ ul {
   grid-column-start: 2;
   grid-column-end: 4;
   grid-row-start: 1;
-  grid-row-end: 6;
+  grid-row-end: 7;
   background-color: white;
   border: 3px solid #6AA2F5;
   border-radius: 3px;
@@ -134,8 +134,8 @@ ul {
 .contacticon {
   grid-column-start: 1;
   grid-column-end: 2;
-  grid-row-start: 4;
-  grid-row-end: 5;
+  grid-row-start: 5;
+  grid-row-end: 6;
   background-color:#6AA2F5;
   text-align: center;
   color: white;
@@ -177,7 +177,7 @@ ul {
 @media screen and (max-width: 800px) {
   .sitebox{
     grid-template-columns: 40px 66% 23%;
-    grid-template-rows: 40px 40px 40px 40px;
+    grid-template-rows: 40px 40px 40px 40px 40px;
     grid-gap: 10px 3%;
     margin: 10% 7% 10% 1%;
   }
@@ -250,7 +250,7 @@ ul {
   .sitebox{
     grid-template-columns: 40px 76% 80px;
     grid-gap: 15px 2%;;
-    grid-template-rows: 40px 40px 40px 40px;
+    grid-template-rows: 40px 40px 40px 40px 40px;
     margin: 100px 7% 100px 11%;
   }
 
